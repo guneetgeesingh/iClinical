@@ -1,4 +1,4 @@
-var app = angular.module("iClinical", ['ui.router','ngAnimate']);
+var app = angular.module("iClinical", ['ui.router']);
 
 app.config(function ($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise("/")
