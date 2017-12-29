@@ -178,7 +178,7 @@ app.controller("matchController", function ($scope, $state, $stateParams, matchS
     } else {
       $scope.matchesView = false;
     }
-    $scope.myClass = "animated infiite bounce"
+    $scope.myClass = "animated bounce"
   }
 
   //lists all saved studies from user
